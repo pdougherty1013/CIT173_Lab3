@@ -1,0 +1,101 @@
+    1  uname
+    2  unamw -a
+    3  uname -a
+    4  pwd
+    5  cd /home/CIT173_Lab1
+    6  cd /home/irishcorner
+    7  cd ~
+    8  cd /home/CIT173_Lab1
+    9  pwd
+   10  mkdir CIT173_Lab1
+   11  pwd
+   12  export
+   13  uname
+   14  uname -a
+   15  export FAVORITE_ANIMAL/DOG
+   16  cd CIT173_Lab1
+   17  FAVORITE_ANIMAL_VAR=Wolf
+   18  MY_AGE_VAR=40
+   19  BEST_PIZZA_TOPPING_VAR=BACON
+   20  MY_MIDDLE_NAME_VAR=JOHN
+   21  MY_CAR_MAKE_VAR=DODGE
+   22  ~/CIT173_Lab1/my-env.txt.
+   23  expot FAVORITE_ANIMAL
+   24  EXPORT FAVORITE_ANIMAL
+   25  export FAVORITE_ANIMAL
+   26  printenv | grep FAVORITE_ANIMAL
+   27  exit
+   28  cd CIT173_Lab1
+   29  FAVORITE_ANIMAL=Wolf
+   30  export FAVORITE_ANIMAL
+   31  MY_AGE=40
+   32  export MY_AGE
+   33  BEST_PIZZA_TOPPING=Bacon
+   34  export BEST_PIZZA_TOPPING
+   35  MY_MIDDLE_NAME=John
+   36  export MY_MIDDLE_NAME
+   37  MY_CAR_MAKE=Dodge
+   38  export MY_CAR_MAKE
+   39  env
+   40  uname -a
+   41  man uname
+   42  cat /etc/group
+   43  cat ~/CIT173_Lab1/file1.dat | ~CIT173_Lab1/file2.dat> ~/CIT_Lab1/my-concat-file.dat
+   44  $ head /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file1.dat
+   45  head /dev/urandom | tr -dc A-Za-z0-9 | head > ~/CIT173_Lab1/file1.dat
+   46  head -| 128/dev/urandom | tr -dcA-Za-z-0-9 | head > ~/CIT173_Lab1/file1.dat
+   47  cd CIT173_Lab1
+   48  FAVORTIE_ANIMAL=Wolf
+   49  FAVORITE_ANIMAL=wolf
+   50  export FAVORITE_ANIMAL
+   51  MY_AGE=40
+   52  export MY_AGE
+   53  BEST_PIZZA_TOPPING=bacon
+   54  export BEST_PIZZA_TOPPING
+   55  MY_MIDDLE_NAME=john
+   56  export MY_MIDDLE_NAME
+   57  MY_CAR_MAKE=dodge
+   58  export MY_CAR_MAKE
+   59  env > CIT173_Lab1
+   60  env > CIT173_Lab1/my-env.txt
+   61  env > ~/CIT173_Lab1/my-env.txt
+   62  uname -a > ~/CIT173_Lab1/my-sys-info.txt
+   63  cat /etc/group
+   64  cd ~/CIT173_Lab3
+   65  whoami
+   66  exit
+   67  cd ~/
+   68  git clone https:github.com.RenoTechnologyAcademy/CIT173_Lab3_Files.git
+   69  cd ~/CIT173_Lab3
+   70  sudo tar -xvf ~/CIT173_Lab3_Files/phonebook.tar.gz
+   71  cat ~/CIT173_Lab3/phonebook1.txt
+   72  sed 's/575/775/' ~/CIT173_Lab3/phonebook1.txt
+   73  sudo sed 's/575/775/' ~/CIT173_Lab3/phonebook1.txt
+   74  sudo sed 's/575/775/' ~/CIT173_Lab3/phonebook2.txt
+   75  sudo -i
+   76  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+   77  sudo cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+   78  ls
+   79  man ls
+   80  ls -a
+   81  exit
+   82  apt install python3-minimal
+   83  sudo
+   84  sudo -i
+   85  sudo apt install python3-minimal
+   86  sudo apt list --installed
+   87  sudo apt list --installed > ~/CIT173_Lab3/my-installed-1.txt
+   88  cd ~/CIT173_Lab3_Files
+   89  ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+   90  sudo ./hello.py > ~/CIT173_Lab3/my-python-output.txt
+   91  sudo hello.py > ~/CIT173_Lab3/my-python-output.txt
+   92  python3 hello.py > ~/CIT173_Lab3/my-python-output.txt
+   93  python3 infinite.py &
+   94  ps -a
+   95  ps -a > ~/CIT173_Lab3/my-processes-1.txt
+   96  kill 1873
+   97  ps -a
+   98  ps -a > ~/CIT173_Lab3/my-processes-2.txt
+   99  sudo apt remove python3-minimal
+  100  sudo apt list --installed > ~/CIT173_Lab3/my-installed-2.txt
+  101  history > ~/CIT173_Lab3/my-command-history.txt
